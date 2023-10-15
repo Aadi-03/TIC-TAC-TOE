@@ -162,6 +162,8 @@ def player_vs_computer():
         countchance = 0
         start()
     matrix()
+    # there is a bug in the prediction of the correct choice when the user plays its move in one of the specific order
+    
 
 def player_vs_player():
     option_window.destroy()
